@@ -23,3 +23,4 @@ export const headlineData = [
                             "Avalanche education, workshops on tap",
                             "New record of international higher education students in Germany",
                         ]
+
