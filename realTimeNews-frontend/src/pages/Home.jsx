@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeLetestNewsAnbTec from '../component/HomeLetestNewsAnbTec'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <HomeLetestNewsAnbTec/>
+    </div>
   )
 }
 

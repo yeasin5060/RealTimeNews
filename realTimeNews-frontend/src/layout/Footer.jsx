@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   const footerImg = [
     footerimgone,
-     footerimgtwo,
+    footerimgtwo,
     footerimgthree,
     footerimgfour,
     footerimgfive,
