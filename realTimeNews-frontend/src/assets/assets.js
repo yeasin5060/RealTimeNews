@@ -175,3 +175,96 @@ export const healthData = [
       summary: 'The South-East Asia has been free of wild poliovirus since 2011. In order to maintain this status and keep the population protected countries must ensure that population immunity remains high; through routine immunization coverage of >90% with polio vaccines. High quality surveillance is needed for being on guard and o'
     }
   ]
+
+export const travetDatas = [
+    {
+      img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696952397/news/rbyymawxmojligobjb3i.webp",
+      category: "Travel",
+      title: "UNESCO recognises Ha Long Bay-Cat Ba Archipelago a",
+      link: "/",
+      date: "October 10, 2023",
+      author: "Suvro Islam",
+    },
+    {
+      img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696952161/news/xxghgpef2jo7chwjxuwy.webp",
+      category: "Travel",
+      title: "Uttarakhand No Inner-line permit required to visit",
+      link: "/",
+      date: "October 10, 2023",
+      author: "Suvro Islam",
+    },
+    {
+      img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696951679/news/btbfqrvjqhso6n842reb.jpg",
+      category: "Travel",
+      title: "5 beautiful forests to visit in Bangladesh",
+      link: "/",
+      date: "October 10, 2023",
+      author: "Suvro Islam",
+    },
+    {
+      img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696951363/news/ozpwvdtxiq99f4xawkd8.jpg",
+      category: "Travel",
+      title: "A mother-daughter Euro adventure!",
+      link: "/",
+      date: "October 10, 2023",
+      author: "Suvro Islam",
+    },
+  ]
+
+export const internationalDatas = [
+  {
+    img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696945881/news/g4ua4dcvrq8ymwk4lvse.jpg",
+    category: "Education",
+    title: "Avalanche education, workshops on tap..",
+    href: "/news/Avalanche-education,-workshops-on-tap",
+    date: "October 10, 2023",
+    author: "Anamul Islam",
+    description: `Sierra Avalanche Center will hold a California Avalanche Workshop on Oct. 22 at the North Tahoe Event Center in Kings Beach. The event features presenters from multiple avalanche centers, ski patrollers and snow researchers. Its popular motoriz...`,
+  },
+  {
+    img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696945750/news/xcrjgkkkcmrcukylj92t.jpg",
+    category: "Education",
+    title:
+    "New record of international higher education students in Germany..",
+    href: "/news/New-record-of-international-higher-education-students-in-Germany",
+    date: "October 10, 2023",
+    author: "Anamul Islam",
+    description: `The number of international students at German universities reached a record high at the start of the 2023/23 academic year, according to data released by the German Academic Exchange Service (DAAD), driven by growth from India in particular which became the top source country. In total, there were 367,578 internation...`,
+  },
+]
+
+export const politicsDatas = [
+        {
+          img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696945750/news/xcrjgkkkcmrcukylj92t.jpg",
+          category: "Education",
+          title:
+            "New record of international higher education stude",
+          href: "/",
+          date: "October 10, 2023",
+          author: "Anamul Islam",
+        },
+        {
+          img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696944918/news/cpoikoau36ujjeoegauz.avif",
+          category: "Education",
+          title: "How the metaverse can revolutionise education",
+          href: "/",
+          date: "October 10, 2023",
+          author: "Himel Islam",
+        },
+        {
+          img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696610297/news/m4fe84dmewzmhxsalywb.png",
+          category: "Education",
+          title: "ABET accreditation reaffirms UTSA’s excellence in ",
+          href: "/",
+          date: "October 6, 2023",
+          author: "Anamul Islam",
+        },
+        {
+          img: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696609931/news/yqofxfhacz6lng7mwssz.png",
+          category: "Education",
+          title: "Education Leaders, Nobel Laureates Explore Role of",
+          href: "/",
+          date: "October 6, 2023",
+          author: "Anamul Islam",
+        },
+      ]
