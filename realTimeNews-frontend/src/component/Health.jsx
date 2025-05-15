@@ -28,7 +28,7 @@ const Health = () => {
                     </div>
                 </div>
                 <div className="px-5 py-4 flex flex-col gap-2">
-                    <Link className="text-md font-semibold text-[#333333] hover:text-[#c80000]" href={item.href}>{item.title}</Link>
+                    <Link className="text-md font-semibold text-[#333333] hover:text-[#c80000]" to={item.href}>{item.title}</Link>
                     <div className="flex gap-2 text-xs text-slate-600">
                         <span>{item.date} / </span>
                         <span>{item.author}</span>

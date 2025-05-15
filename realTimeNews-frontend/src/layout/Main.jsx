@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Header from '../hedar/Header'
 import NewsBaner from '../component/newsBaner'
 import Headline from '../component/Headline'
+import Category from '../component/Category'
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
         <Header/>
         <NewsBaner/>
         <Navbar/>
+        <Category/>
         <Headline/>
             <Outlet/>
         <Footer/>

@@ -33,7 +33,7 @@ const Politics = () => {
                         <div className="px-5 py-4 flex flex-col gap-2">
                             <Link
                             className="text-md font-semibold text-[#333333] hover:text-[#c80000]"
-                            href="/news/Avalanche-education,-workshops-on-tap"
+                            to="/news/Avalanche-education,-workshops-on-tap"
                             >
                             Avalanche education, workshops on tap..
                             </Link>
@@ -67,13 +67,13 @@ const Politics = () => {
                                 <div className="flex flex-col gap-1">
                                     <Link
                                     className="text-sm font-semibold text-[#c80000]"
-                                    href={item.href}
+                                    to={item.href}
                                     >
                                     {item.category}
                                     </Link>
                                     <Link
                                     className="text-sm font-semibold text-[#333333] hover:text-[#c80000]"
-                                    href={item.href}
+                                    to={item.href}
                                     >
                                     {item.title}
                                     </Link>

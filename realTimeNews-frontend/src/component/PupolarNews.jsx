@@ -41,7 +41,7 @@ const PupolarNews = () => {
                             <div className="p-5">
                                 <Link
                                 className="text-md font-semibold text-[#333333] hover:text-[#c80000]"
-                                href={news.link}
+                                to={news.link}
                                 >
                                 {news.title}
                                 </Link>

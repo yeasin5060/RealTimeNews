@@ -102,22 +102,22 @@ const HomeLetestNewsAnbTec = () => {
                                                 alt="image"
                                                 />
                                             </div>
-                                        <a
-                                            className="absolute invisible group-hover:visible w-full h-full left-0 top-0 bg-white cursor-pointer transition-all opacity-5 duration-300"
-                                            href={item.link}
-                                        ></a>
-                                        <div className="absolute left-5 bottom-4 flex justify-start items-start flex-col text-white font-semibold gap-2">
-                                            <div className="flex gap-2">
-                                            <div className="px-[6px] py-[2px] rounded-sm text-[13px] bg-[#c80000]">
-                                                {item.tag}
+                                            <Link
+                                                className="absolute invisible group-hover:visible w-full h-full left-0 top-0 bg-white cursor-pointer transition-all opacity-5 duration-300"
+                                                to={item.link}
+                                            ></Link>
+                                            <div className="absolute left-5 bottom-4 flex justify-start items-start flex-col text-white font-semibold gap-2">
+                                                <div className="flex gap-2">
+                                                <div className="px-[6px] py-[2px] rounded-sm text-[13px] bg-[#c80000]">
+                                                    {item.tag}
+                                                </div>
+                                                </div>
+                                                <h2 className="text-xl">{item.title}</h2>
+                                                <div className="flex gap-2 text-sm">
+                                                    <span>{item.date} / </span>
+                                                    <span>{item.author}</span>
+                                                </div>
                                             </div>
-                                            </div>
-                                            <h2 className="text-xl">{item.title}</h2>
-                                            <div className="flex gap-2 text-sm">
-                                            <span>{item.date} / </span>
-                                            <span>{item.author}</span>
-                                            </div>
-                                        </div>
                                         </div>
                                     </li>
                                     ))}

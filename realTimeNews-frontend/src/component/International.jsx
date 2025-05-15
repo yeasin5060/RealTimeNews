@@ -34,7 +34,7 @@ const International = () => {
                     <div className="px-5 py-4 flex flex-col gap-2">
                         <Link
                             className="text-md font-semibold text-[#333333] hover:text-[#c80000]"
-                            href={item.href}
+                            to={item.href}
                         >
                             {item.title}
                         </Link>

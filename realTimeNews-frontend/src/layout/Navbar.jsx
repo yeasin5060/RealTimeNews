@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='bg-[#c80000] text-white uppercase font-semibold relative'>
       <div className='container'>
         <div className="text-left">
-          <div className="px-8 flex justify-between items-center relative h-[48px]">
+          <div className="flex justify-between items-center relative h-[48px]">
             <div className="text-3xl  lg:hidden font-blod h-full w-[48px] cursor-pointer flex justify-center items-center  hover:bg-[#00000026] ">
               <svg
                 stroke="currentColor"

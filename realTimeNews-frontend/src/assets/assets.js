@@ -1,28 +1,28 @@
 export const headlineDataOn = [
-                                    "Kusal Mendis, Sadeera Samarawickrama set Pakistan daunting target",
-                                    "Dawid Malan The consistent one among freaks",
-                                    "India gets its longest glass bridge in Vagamon, Kerala!",
-                                    "UNESCO recognises Ha Long Bay-Cat Ba Archipelago as world natural heritage",
-                                    "Access to high quality vaccines",
-                                    "Polio-free certification of the WHO South-East Asia Region",
-                                    "EU sees 'convergence' with Japan on AI - official",
-                                    "OnePlus 11r Solar Red with 512 GB internal storage announced",
-                                    "Avalanche education, workshops on tap",
-                                    "New record of international higher education students in Germany",
-                                    ]
+  "Kusal Mendis, Sadeera Samarawickrama set Pakistan daunting target",
+  "Dawid Malan The consistent one among freaks",
+  "India gets its longest glass bridge in Vagamon, Kerala!",
+  "UNESCO recognises Ha Long Bay-Cat Ba Archipelago as world natural heritage",
+  "Access to high quality vaccines",
+  "Polio-free certification of the WHO South-East Asia Region",
+  "EU sees 'convergence' with Japan on AI - official",
+  "OnePlus 11r Solar Red with 512 GB internal storage announced",
+  "Avalanche education, workshops on tap",
+  "New record of international higher education students in Germany",
+]
 
 export const headlineData = [
-                            "Kusal Mendis, Sadeera Samarawickrama set Pakistan daunting target",
-                            "Dawid Malan The consistent one among freaks",
-                            "India gets its longest glass bridge in Vagamon, Kerala!",
-                            "UNESCO recognises Ha Long Bay-Cat Ba Archipelago as world natural heritage",
-                            "Access to high quality vaccines",
-                            "Polio-free certification of the WHO South-East Asia Region",
-                            "EU sees 'convergence' with Japan on AI - official",
-                            "OnePlus 11r Solar Red with 512 GB internal storage announced",
-                            "Avalanche education, workshops on tap",
-                            "New record of international higher education students in Germany",
-                        ]
+  "Kusal Mendis, Sadeera Samarawickrama set Pakistan daunting target",
+  "Dawid Malan The consistent one among freaks",
+  "India gets its longest glass bridge in Vagamon, Kerala!",
+  "UNESCO recognises Ha Long Bay-Cat Ba Archipelago as world natural heritage",
+  "Access to high quality vaccines",
+  "Polio-free certification of the WHO South-East Asia Region",
+  "EU sees 'convergence' with Japan on AI - official",
+  "OnePlus 11r Solar Red with 512 GB internal storage announced",
+  "Avalanche education, workshops on tap",
+  "New record of international higher education students in Germany",
+]
 
 export const techNewsItems = [
   {
@@ -267,4 +267,70 @@ export const politicsDatas = [
           date: "October 6, 2023",
           author: "Anamul Islam",
         },
-      ]
+ ]
+
+export const technologyDatas = [
+  {
+    src: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696938867/news/k5g8kqwrbvoibjlo5hlw.avif",
+    category: "Technology",
+    title: "OnePlus 11r Solar Red with 512 GB internal storage",
+    date: "October 10, 2023",
+    author: "Samim Islam",
+    href: "/"
+  },
+  {
+    src: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696653583/news/drhzjvp28llppxekqlbq.jpg",
+    category: "Technology",
+    title: "What is the metaverse? An explanation and in-depth",
+    date: "October 7, 2023",
+    author: "Himel Islam",
+    href: "/"
+  },
+  {
+    src: "https://res.cloudinary.com/dpj4vsqbo/image/upload/v1696609488/news/aasdsd_ymytxe.png",
+    category: "Technology",
+    title: "France’s FEDA issues warning about giga press tech",
+    date: "October 6, 2023",
+    author: "Himel Islam",
+    href: "/"
+  },
+  {
+    src: "https://res.cloudinary.com/dpj4vsqbo/image/upload/v1696589483/news/iwpu19y2thcabruncb6n.jpg",
+    category: "Technology",
+    title: "AI facial recognition: Campaigners and MPs call fo",
+    date: "October 6, 2023",
+    author: "Himel Islam",
+    href: "/"
+  },
+]
+
+export const recentDatas = [
+  {
+    category: "Health",
+    title: "Polio-free certification of the WHO South-East Asi",
+    date: "October 10, 2023",
+    author: "Sabbir Islam",
+    src: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696950656/news/ktqgrqisw2dtkvwytuqa.jpg",
+  },
+  {
+    category: "Sports",
+    title: "Kusal Mendis, Sadeera Samarawickrama set Pakistan ",
+    date: "October 10, 2023",
+    author: "Samim Islam",
+    src: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1704520951/usfo55zrfbginjxk2apr.webp",
+  },
+  {
+    category: "Sports",
+    title: "Dawid Malan The consistent one among freaks",
+    date: "October 10, 2023",
+    author: "Samim Islam",
+    src: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696949063/news/igkypjzfkyj6sxchqklm.webp",
+  },
+  {
+    category: "Education",
+    title: "Avalanche education, workshops on tap",
+    date: "October 10, 2023",
+    author: "Anamul Islam",
+    src: "http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696945881/news/g4ua4dcvrq8ymwk4lvse.jpg",
+  }
+]

@@ -7,7 +7,7 @@ import Politics from './Politics'
 const PoliticsTravelInternational = () => {
     const [travelData , setTravelData] = useState(travetDatas)
   return (
-    <div className='container'>
+    <section className='bg-white'>
         <div className='container'>
             <div className="px-4 md:px-8 w-full mt-5 lg:mt-0">
                 <div className="flex flex-wrap flex-row-reverse">
@@ -89,12 +89,9 @@ const PoliticsTravelInternational = () => {
                                 </div>
                             </div>
                         </div>
-
                             {/* International Section */}
-                            <International/>
-                                    
+                            <International/>      
                     </div>
-
                         {/* Politics Sidebar */}
                         <div className="lg:w-4/12 w-full">
                            <Politics/>
@@ -102,7 +99,7 @@ const PoliticsTravelInternational = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

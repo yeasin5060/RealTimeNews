@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { sportsData } from '../assets/assets'
 import Education from './Education'
 import Health from './Health'
+import { Link } from 'react-router-dom'
 const SportEducationHealth = () => {
     const [sportsDatas , setSportDatas] = useState(sportsData)
   return (
@@ -34,9 +35,9 @@ const SportEducationHealth = () => {
                                     </div>
                                 </div>
                                 <div className="px-5 py-4 flex flex-col gap-2">
-                                    <a className="text-md font-semibold text-[#333333] hover:text-[#c80000]" href="/news/Kusal-Mendis,-Sadeera-Samarawickrama-set-Pakistan-daunting-target">
+                                    <Link className="text-md font-semibold text-[#333333] hover:text-[#c80000]" to="/news/Kusal-Mendis,-Sadeera-Samarawickrama-set-Pakistan-daunting-target">
                                         Kusal Mendis, Sadeera Samarawickrama set Pakistan daunting target..
-                                    </a>
+                                    </Link>
                                     <div className="flex gap-2 text-xs text-slate-600">
                                         <span>October 10, 2023 / </span>
                                         <span>Samim Islam</span>
@@ -63,7 +64,7 @@ const SportEducationHealth = () => {
                                                 <div className="absolute invisible group-hover:visible w-full h-full left-0 top-0 bg-white cursor-pointer transition-all opacity-5 duration-300"></div>
                                                 </div>
                                                 <div className="flex flex-col gap-1">
-                                                <a className="text-sm font-semibold text-[#c80000]" href="/">{item.category}</a>
+                                                <Link className="text-sm font-semibold text-[#c80000]" to="/">{item.category}</Link>
                                                 <a className="text-sm font-semibold text-[#333333] hover:text-[#c80000]" href="/">{item.title}</a>
                                                 <div className="flex gap-2 text-xs text-slate-600">
                                                     <span>{item.date} / </span>
