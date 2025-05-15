@@ -93,3 +93,85 @@ export const pupolarNewsData = [
     link: "/news/UNESCO-recognises-Ha-Long-Bay-Cat-Ba-Archipelago-as-world-natural-heritage",
   },
 ];
+
+export const sportsData = [
+              {
+                category: 'Sports',
+                title: 'Dawid Malan The consistent one among freaks',
+                date: 'October 10, 2023',
+                author: 'Samim Islam',
+                imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696949063/news/igkypjzfkyj6sxchqklm.webp'
+              },
+              {
+                category: 'Sports',
+                title: 'New Zealand claimed a second straight World Cup vi',
+                date: 'October 10, 2023',
+                author: 'Samim Islam',
+                imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696938657/news/f9l6q7ggz97dkisksa1d.jpg'
+              },
+              {
+                category: 'Sports',
+                title: 'Shakib strikes again for Tigers',
+                date: 'October 7, 2023',
+                author: 'Samim Islam',
+                imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696661137/news/jorgi8v0ir0ningllatm.avif'
+              },
+              {
+                category: 'Sports',
+                title: 'Pakistan vs India LIVE: Cricket score and updates ',
+                date: 'October 7, 2023',
+                author: 'Samim Islam',
+                imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696654573/news/oeechao1p7ra9haoatv6.jpg'
+              }
+  ]
+
+export const educationDatas = [ 
+    {
+      category: 'Education',
+      title: 'New record of international higher education stude',
+      date: 'October 10, 2023',
+      author: 'Anamul Islam',
+      imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696945750/news/xcrjgkkkcmrcukylj92t.jpg'
+    },
+    {
+      category: 'Education',
+      title: 'How the metaverse can revolutionise education',
+      date: 'October 10, 2023',
+      author: 'Himel Islam',
+      imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696944918/news/cpoikoau36ujjeoegauz.avif'
+    },
+    {
+      category: 'Education',
+      title: 'ABET accreditation reaffirms UTSA’s excellence in ',
+      date: 'October 6, 2023',
+      author: 'Anamul Islam',
+      imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696610297/news/m4fe84dmewzmhxsalywb.png'
+    },
+    {
+      category: 'Education',
+      title: 'Education Leaders, Nobel Laureates Explore Role of',
+      date: 'October 6, 2023',
+      author: 'Anamul Islam',
+      imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696609931/news/yqofxfhacz6lng7mwssz.png'
+    }
+  ]
+
+export const healthData = [
+  {
+    category: 'Health',
+    title: 'Access to high quality vaccines..',
+    date: 'October 10, 2023',
+    author: 'Sabbir Islam',
+    imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696950820/news/xaab03n06yvlwnvsss31.jpg',
+    link: '/news/Access-to-high-quality-vaccines',
+    summary: 'Access to affordable vaccines of assured quality is central to the performance of immunization programmes. A positive enabling environment for vaccine development requires longer-term strategies, significant investment and well-functioning national regulatory agencies and advisory bodies. Networking and information exc'
+  }, {
+      category: 'Health',
+      title: 'Polio-free certification of the WHO South-East Asia Region..',
+      date: 'October 10, 2023',
+      author: 'Sabbir Islam',
+      imgSrc: 'http://res.cloudinary.com/dpj4vsqbo/image/upload/v1696950656/news/ktqgrqisw2dtkvwytuqa.jpg',
+      link: '/news/Polio-free-certification-of-the-WHO-South-East-Asia-Region',
+      summary: 'The South-East Asia has been free of wild poliovirus since 2011. In order to maintain this status and keep the population protected countries must ensure that population immunity remains high; through routine immunization coverage of >90% with polio vaccines. High quality surveillance is needed for being on guard and o'
+    }
+  ]
