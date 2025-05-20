@@ -1,7 +1,54 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import { educationDatas, healthData, sportsData, technologyDatas, travetDatas } from '../assets/assets'
+import { useDispatch } from 'react-redux'
+import { setEducationData } from '../redux/educationSlice'
+import { setSportData } from '../redux/sportSlice'
+import { setTechnologyData } from '../redux/technologySlice'
+import { setTravelData } from '../redux/travelSlice'
+import { setHealthData } from '../redux/healthSlice'
+
 
 const Navbar = () => {
+
+  const dispatch = useDispatch()
+
+  const handleEducationData = () => {
+    dispatch(setEducationData(educationDatas))
+    dispatch(setSportData([]))
+    dispatch(setTechnologyData([]))
+    dispatch(setTravelData([]))
+    dispatch(setHealthData([]))
+  }
+  const handleSportData = () => {
+    dispatch(setSportData(sportsData))
+    dispatch(setTechnologyData([]))
+    dispatch(setTravelData([]))
+    dispatch(setHealthData([]))
+    dispatch(setEducationData([]))
+
+  }
+  const handleTechnologyData = () => {
+    dispatch(setTechnologyData(technologyDatas))
+    dispatch(setSportData([]))
+    dispatch(setEducationData([]))
+    dispatch(setTravelData([]))
+    dispatch(setHealthData([]))
+  }
+  const handleTravelData = () => {
+    dispatch(setTravelData(travetDatas))
+    dispatch(setSportData([]))
+    dispatch(setEducationData([]))
+    dispatch(setHealthData([]))
+    dispatch(setTechnologyData([]))
+  }
+  const handleHealthData = () => {
+    dispatch(setHealthData(healthData))
+    dispatch(setSportData([]))
+    dispatch(setEducationData([]))
+    dispatch(setTechnologyData([]))
+    dispatch(setTravelData([]))
+  }
+
   return (
     <nav className='bg-[#c80000] text-white uppercase font-semibold relative'>
       <div className='container'>
@@ -24,24 +71,36 @@ const Navbar = () => {
               </svg>
             </div>
             <div className="flex-wrap lg:flex hidden">
-              <Link className="px-6 py-[13px] bg-[#00000026]" to="/">
+              <NavLink className={({ isActive }) =>
+                  `px-6 py-[13px] ${isActive ? 'bg-[#00000026]' : ''}`
+                } to="/">
                 Home
-              </Link>
-              <Link className="px-6 py-[13px] " to="/news/category/Education">
-                Education
-              </Link>
-              <Link className="px-6 py-[13px] " to="/news/category/Sports">
+              </NavLink>
+              <NavLink onClick={handleSportData} className={({ isActive }) =>
+                  `px-6 py-[13px] ${isActive ? 'bg-[#00000026]' : ''}`
+                }  to="/news/category/Sports">
                 Sports
-              </Link>
-              <Link className="px-6 py-[13px] " to="/news/category/Travel">
+              </NavLink>
+               <NavLink onClick={handleEducationData} className={({ isActive }) =>
+                  `px-6 py-[13px] ${isActive ? 'bg-[#00000026]' : ''}`
+                } to="/news/category/Education">
+                Education
+              </NavLink>
+              <NavLink onClick={handleTravelData} className={({ isActive }) =>
+                  `px-6 py-[13px] ${isActive ? 'bg-[#00000026]' : ''}`
+                } to="/news/category/Travel">
                 Travel
-              </Link>
-              <Link className="px-6 py-[13px] " to="/news/category/Technology">
+              </NavLink>
+              <NavLink onClick={handleTechnologyData} className={({ isActive }) =>
+                  `px-6 py-[13px] ${isActive ? 'bg-[#00000026]' : ''}`
+                } to="/news/category/Technology">
                 Technology
-              </Link>
-              <Link className="px-6 py-[13px] " to="/news/category/Health">
+              </NavLink>
+              <NavLink onClick={handleHealthData} className={({ isActive }) =>
+                  `px-6 py-[13px] ${isActive ? 'bg-[#00000026]' : ''}`
+                } to="/news/category/Health">
                 Health
-              </Link>
+              </NavLink>
             </div>
             <div className="h-full w-[48px]">
               <div className="text-xl  font-blod h-full w-full cursor-pointer flex justify-center items-center  hover:bg-[#00000026] ">
